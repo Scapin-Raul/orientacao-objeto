@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\obj\Debug\netcoreapp2.1\ex2Senaizinho.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\obj\Debug\netcoreapp2.1\ex2Senaizinho.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\obj\Debug\netcoreapp2.1\ex2Senaizinho.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\obj\Debug\netcoreapp2.1\ex2Senaizinho.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\bin\Debug\netcoreapp2.1\ex2Senaizinho.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\bin\Debug\netcoreapp2.1\ex2Senaizinho.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\bin\Debug\netcoreapp2.1\ex2Senaizinho.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\bin\Debug\netcoreapp2.1\ex2Senaizinho.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\bin\Debug\netcoreapp2.1\ex2Senaizinho.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\obj\Debug\netcoreapp2.1\ex2Senaizinho.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2Senaizinho\obj\Debug\netcoreapp2.1\ex2Senaizinho.pdb
