@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\bin\Debug\netcoreapp2.1\ex3Login.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\bin\Debug\netcoreapp2.1\ex3Login.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\bin\Debug\netcoreapp2.1\ex3Login.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\bin\Debug\netcoreapp2.1\ex3Login.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\bin\Debug\netcoreapp2.1\ex3Login.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\obj\Debug\netcoreapp2.1\ex3Login.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\obj\Debug\netcoreapp2.1\ex3Login.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\obj\Debug\netcoreapp2.1\ex3Login.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\obj\Debug\netcoreapp2.1\ex3Login.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\obj\Debug\netcoreapp2.1\ex3Login.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex3pizuka\obj\Debug\netcoreapp2.1\ex3Login.pdb

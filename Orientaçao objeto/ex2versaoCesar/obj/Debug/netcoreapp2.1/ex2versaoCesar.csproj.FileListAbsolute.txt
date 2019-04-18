@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\obj\Debug\netcoreapp2.1\ex2versaoCesar.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\obj\Debug\netcoreapp2.1\ex2versaoCesar.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\obj\Debug\netcoreapp2.1\ex2versaoCesar.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\obj\Debug\netcoreapp2.1\ex2versaoCesar.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\bin\Debug\netcoreapp2.1\ex2versaoCesar.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\bin\Debug\netcoreapp2.1\ex2versaoCesar.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\bin\Debug\netcoreapp2.1\ex2versaoCesar.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\bin\Debug\netcoreapp2.1\ex2versaoCesar.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\bin\Debug\netcoreapp2.1\ex2versaoCesar.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\obj\Debug\netcoreapp2.1\ex2versaoCesar.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\ex2versaoCesar\obj\Debug\netcoreapp2.1\ex2versaoCesar.pdb

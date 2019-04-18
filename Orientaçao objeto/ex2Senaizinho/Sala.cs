@@ -10,17 +10,31 @@ using System;
         public string[] alunos;
         public int cont = 0;
         
-        public void setAlunos(string valor){
+        public string setAlunos(string valor){
             this.alunos[cont] = valor;
             cont++;
+            capacidadeAtual--;
+            return "Aluno alocado com sucesso.";
         }
-        // public bool getAlunos(){
-        //     for (int i = 0; i < cont; i++){
-        //         return true;
-        //         System.Console.WriteLine(alunos[i]);
-        //     }
-        //     return false;
-        // }
+        public string removerAlunos(){
+            cont--;
+            capacidadeAtual++;
+            return "Aluno removido com sucesso.";
+        }
+        public string exibirAlunos(){
+            string mensagem = "";
+            for (int j = 0; j < cont; j++){
+                if (alunos[j] != null)
+                {   
+                    if (j == (cont - 1)){
+                        mensagem += $"{alunos[j]}.";
+                    }else{
+                        mensagem += $"{alunos[j]}, ";
+                    }
+                }
+            }
+            return mensagem;
+        }
 
     }
 }
