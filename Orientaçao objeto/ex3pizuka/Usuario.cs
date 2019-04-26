@@ -9,26 +9,28 @@ namespace ex3pizuka
         private string senha;
         private DateTime dataCriacao;
 
-        public string Inserir(string nome, string email, string senha, int cont){
+        public void Inserir(string nome, string email, string senha, int cont){
             this.nome = nome;
             this.email = email;
             this.senha = senha;
             dataCriacao = DateTime.Now;
             id = cont;
-            return "Usuario criado com sucesso.";
+            System.Console.WriteLine("Usuario criado com sucesso.");
         }
-        public string Listar(int cont3){
+        public void Listar(int cont3){
             string mensagem ="";
             mensagem+="-----Usuário "+cont3+"---\nNome do usuário: "+nome+"\nE-mail: "+email+"\nId: "+id+"\n";
-            return mensagem;
+            System.Console.WriteLine(mensagem);
+            return;
         }
-        public string EfetuarLogin(string senhaUser){
+        public void EfetuarLogin(string senhaUser){
             if(senhaUser == senha){
                 Console.ForegroundColor = ConsoleColor.Green;
-                return $"Bem-vindo - {nome}";
+                System.Console.WriteLine($"Bem-vindo - {nome}");
+                return;
             }else{
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                return "Senha inválida.";
+                System.Console.WriteLine("Senha inválida.");
             }
         }
     }

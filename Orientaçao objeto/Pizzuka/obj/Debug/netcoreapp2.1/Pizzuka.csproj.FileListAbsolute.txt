@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\bin\Debug\netcoreapp2.1\Pizzuka.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\bin\Debug\netcoreapp2.1\Pizzuka.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\bin\Debug\netcoreapp2.1\Pizzuka.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\bin\Debug\netcoreapp2.1\Pizzuka.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\bin\Debug\netcoreapp2.1\Pizzuka.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\obj\Debug\netcoreapp2.1\Pizzuka.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\obj\Debug\netcoreapp2.1\Pizzuka.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\obj\Debug\netcoreapp2.1\Pizzuka.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\obj\Debug\netcoreapp2.1\Pizzuka.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\obj\Debug\netcoreapp2.1\Pizzuka.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\Orientaçao objeto\Pizzuka\obj\Debug\netcoreapp2.1\Pizzuka.pdb

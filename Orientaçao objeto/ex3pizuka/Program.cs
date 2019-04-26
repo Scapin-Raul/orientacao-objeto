@@ -41,7 +41,7 @@ namespace ex3pizuka
                         } while (senha.Length < 6);
 
                         Console.ForegroundColor = ConsoleColor.Green;
-                        System.Console.WriteLine(usuarios[contasCriadas].Inserir(nome,email,senha,cont));
+                        usuarios[contasCriadas].Inserir(nome,email,senha,cont);
                         Console.ResetColor ();
 
                         contasCriadas++;
@@ -68,8 +68,10 @@ namespace ex3pizuka
                         System.Console.Write("Digite a senha: ");
                         string senhaUser = Console.ReadLine();
 
-                        System.Console.WriteLine(userRecuperado.EfetuarLogin(senhaUser));
+                        userRecuperado.EfetuarLogin(senhaUser);
                         Console.ResetColor ();
+
+
                     break;
                     
                     case 3://listar usuários
@@ -79,7 +81,7 @@ namespace ex3pizuka
                                 break;
                             }else{
                                 cont3++;
-                                System.Console.WriteLine(item.Listar(cont3));
+                                item.Listar(cont3);
                             }
                         }
                     break;
