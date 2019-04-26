@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\bin\Debug\netcoreapp2.1\MVC_Tsushi.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\bin\Debug\netcoreapp2.1\MVC_Tsushi.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\bin\Debug\netcoreapp2.1\MVC_Tsushi.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\bin\Debug\netcoreapp2.1\MVC_Tsushi.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\bin\Debug\netcoreapp2.1\MVC_Tsushi.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\obj\Debug\netcoreapp2.1\MVC_Tsushi.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\obj\Debug\netcoreapp2.1\MVC_Tsushi.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\obj\Debug\netcoreapp2.1\MVC_Tsushi.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\obj\Debug\netcoreapp2.1\MVC_Tsushi.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\obj\Debug\netcoreapp2.1\MVC_Tsushi.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\MVC_Tsushi\obj\Debug\netcoreapp2.1\MVC_Tsushi.pdb
