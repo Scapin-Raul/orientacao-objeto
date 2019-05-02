@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\bin\Debug\netcoreapp2.1\TodoList.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\bin\Debug\netcoreapp2.1\TodoList.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\bin\Debug\netcoreapp2.1\TodoList.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\bin\Debug\netcoreapp2.1\TodoList.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\bin\Debug\netcoreapp2.1\TodoList.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\obj\Debug\netcoreapp2.1\TodoList.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\obj\Debug\netcoreapp2.1\TodoList.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\obj\Debug\netcoreapp2.1\TodoList.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\obj\Debug\netcoreapp2.1\TodoList.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\obj\Debug\netcoreapp2.1\TodoList.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\TodoList\obj\Debug\netcoreapp2.1\TodoList.pdb
