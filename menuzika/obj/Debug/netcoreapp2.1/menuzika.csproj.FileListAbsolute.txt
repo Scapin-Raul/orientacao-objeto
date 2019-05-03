@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\obj\Debug\netcoreapp2.1\menuzika.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\obj\Debug\netcoreapp2.1\menuzika.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\obj\Debug\netcoreapp2.1\menuzika.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\obj\Debug\netcoreapp2.1\menuzika.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\bin\Debug\netcoreapp2.1\menuzika.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\bin\Debug\netcoreapp2.1\menuzika.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\bin\Debug\netcoreapp2.1\menuzika.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\bin\Debug\netcoreapp2.1\menuzika.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\bin\Debug\netcoreapp2.1\menuzika.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\obj\Debug\netcoreapp2.1\menuzika.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\menuzika\obj\Debug\netcoreapp2.1\menuzika.pdb

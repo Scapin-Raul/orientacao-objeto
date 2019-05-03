@@ -24,7 +24,7 @@ namespace MVC_Tsushi
                         UsuarioViewModel usuarioRecuperado = UsuarioViewController.EfeturLogin();
                         if (usuarioRecuperado != null){
                             System.Console.WriteLine($"Seja bem-vindo {usuarioRecuperado.Nome}");    
-                            Console.ReadLine();
+                            // Console.ReadLine();
 #region LOGADO
                             do{
                                 MenuUtil.MenuLogado();

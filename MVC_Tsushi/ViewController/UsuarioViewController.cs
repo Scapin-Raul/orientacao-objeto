@@ -57,24 +57,25 @@ namespace MVC_Tsushi.ViewController
         public static void ListarUsuario(){
             List<UsuarioViewModel> listaDeUsuarios = usuarioRepositorio.Listar();
             foreach (var item in listaDeUsuarios){
-                System.Console.WriteLine($"ID: {item.Id} - Nome: {item.Nome} - Email: {item.Email} - Senha: {item.Senha} - Data Criaçao: {item.DataCriacao}");
+                System.Console.WriteLine($"ID: {item.Id} - Nome: {item.Nome} - Email: {item.Email}- Data Criaçao: {item.DataCriacao:dd/MM/yyyy}");
+                // System.Console.WriteLine($" - Senha: {item.Senha}");
             }
         }
 #endregion 
 #region EFETUAR_LOGIN 
         public static UsuarioViewModel EfeturLogin(){
             string email, senha;
-            do{
+            // do{
                 System.Console.Write("Insira o email: ");
                 email = Console.ReadLine();
-                if (!ValidacaoUtil.ValidarEmail(email)){
-                    System.Console.WriteLine("Email inválido!!!!");
-                }
-            } while (!ValidacaoUtil.ValidarEmail(email));
+            //     if (!ValidacaoUtil.ValidarEmail(email)){
+            //         System.Console.WriteLine("Email inválido!!!!");
+            //     }
+            // } while (!ValidacaoUtil.ValidarEmail(email));
             System.Console.Write("Insira a senha: ");
             senha = Console.ReadLine();
             
-            UsuarioViewModel usuarioRecuperado = UsuarioRepositorio.BuscarUsuario(email, senha);
+            UsuarioViewModel usuarioRecuperado = usuarioRepositorio.BuscarUsuario(email, senha);
             if (usuarioRecuperado != null){
                 return usuarioRecuperado;
             }else{

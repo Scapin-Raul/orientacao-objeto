@@ -10,52 +10,52 @@ namespace MVC_Tsushi.ViewController
         
         static ProdutoRepositorio produtoRepositorio = new ProdutoRepositorio(); 
 #region CADASTRAR_PRODUTO
-public static void CadastrarProduto(){
-string nome, descricao, categoria;
-float preco;
+    public static void CadastrarProduto(){
+        string nome, descricao, categoria;
+        float preco;
 
-do{
-    System.Console.WriteLine("Insira o nome do produto:");
-    nome = Console.ReadLine();
-    if (string.IsNullOrEmpty(nome)){
-        System.Console.WriteLine("Nome de produto inválido");
-    }
-} while (string.IsNullOrEmpty(nome));
+        do{
+            System.Console.WriteLine("Insira o nome do produto:");
+            nome = Console.ReadLine();
+            if (string.IsNullOrEmpty(nome)){
+                System.Console.WriteLine("Nome de produto inválido");
+            }
+        } while (string.IsNullOrEmpty(nome));
 
-do{
-    System.Console.WriteLine("Insira a descrição do produto:");
-    descricao = Console.ReadLine();
-    if (string.IsNullOrEmpty(descricao)){
-        System.Console.WriteLine("Descrição de produto inválido");
-    }
-} while (string.IsNullOrEmpty(descricao));
+        do{
+            System.Console.WriteLine("Insira a descrição do produto:");
+            descricao = Console.ReadLine();
+            if (string.IsNullOrEmpty(descricao)){
+                System.Console.WriteLine("Descrição de produto inválido");
+            }
+        } while (string.IsNullOrEmpty(descricao));
 
-do{
-    System.Console.WriteLine("Insira a categoria do produto:");
-    categoria = Console.ReadLine();
-    if (string.IsNullOrEmpty(categoria)){
-        System.Console.WriteLine("Categoria de produto inválido");
-    }
-} while (string.IsNullOrEmpty(categoria));
+        do{
+            System.Console.WriteLine("Insira a categoria do produto:");
+            categoria = Console.ReadLine();
+            if (string.IsNullOrEmpty(categoria)){
+                System.Console.WriteLine("Categoria de produto inválido");
+            }
+        } while (string.IsNullOrEmpty(categoria));
 
-do{
-    System.Console.WriteLine("Insira o preço do produto:");
-    preco = float.Parse(Console.ReadLine());
-    if (float.IsNegative(preco)){
-        System.Console.WriteLine("Preço de produto inválido");
-    }
-} while (float.IsNegative(preco));
+        do{
+            System.Console.WriteLine("Insira o preço do produto:");
+            preco = float.Parse(Console.ReadLine());
+            if (float.IsNegative(preco)){
+                System.Console.WriteLine("Preço de produto inválido");
+            }
+        } while (float.IsNegative(preco));
 
-ProdutoViewModel produtoViewModel = new ProdutoViewModel();
-produtoViewModel.Nome = nome;
-produtoViewModel.Categoria = categoria;
-produtoViewModel.Descricao = descricao;
-produtoViewModel.Preco = preco;
+        ProdutoViewModel produtoViewModel = new ProdutoViewModel();
+        produtoViewModel.Nome = nome;
+        produtoViewModel.Categoria = categoria;
+        produtoViewModel.Descricao = descricao;
+        produtoViewModel.Preco = preco;
 
-produtoRepositorio.Inserir(produtoViewModel);
+        produtoRepositorio.Inserir(produtoViewModel);
 
-System.Console.WriteLine("Produto cadastrado com sucesso!");
-}
+        System.Console.WriteLine("Produto cadastrado com sucesso!");
+        }
 #endregion
 #region LISTAR_PRODUTOS
         public static void ListarProduto(){
@@ -70,7 +70,7 @@ System.Console.WriteLine("Produto cadastrado com sucesso!");
             System.Console.WriteLine("Insira o ID do produto que gostaria de consultar:");
             int idBusca = int.Parse(Console.ReadLine());
             
-            ProdutoViewModel produtoRecuperado = ProdutoRepositorio.BuscarId(idBusca);
+            ProdutoViewModel produtoRecuperado = produtoRepositorio.BuscarId(idBusca);
 
             if (produtoRecuperado != null){
                 System.Console.WriteLine($"ID: {produtoRecuperado.Id} - Nome: {produtoRecuperado.Nome} - Categoria: {produtoRecuperado.Categoria} - Descrição: {produtoRecuperado.Descricao} - Preço: {produtoRecuperado.Preco} - Data Criaçao: {produtoRecuperado.DataCriacao}");

@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\46791749865\\Desktop\\orientacao-objeto\\MVC_Tsushi\\MVC_Tsushi.csproj",
-      "projectName": "MVC_Tsushi",
-      "projectPath": "c:\\Users\\46791749865\\Desktop\\orientacao-objeto\\MVC_Tsushi\\MVC_Tsushi.csproj",
+      "projectUniqueName": "C:\\Users\\46791749865\\Desktop\\orientacao-objeto\\menuzika\\menuzika.csproj",
+      "projectName": "menuzika",
+      "projectPath": "C:\\Users\\46791749865\\Desktop\\orientacao-objeto\\menuzika\\menuzika.csproj",
       "packagesPath": "C:\\Users\\46791749865\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\46791749865\\Desktop\\orientacao-objeto\\MVC_Tsushi\\obj\\",
+      "outputPath": "C:\\Users\\46791749865\\Desktop\\orientacao-objeto\\menuzika\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
