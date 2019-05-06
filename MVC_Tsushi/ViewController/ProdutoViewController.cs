@@ -73,7 +73,7 @@ namespace MVC_Tsushi.ViewController
             ProdutoViewModel produtoRecuperado = produtoRepositorio.BuscarId(idBusca);
 
             if (produtoRecuperado != null){
-                System.Console.WriteLine($"ID: {produtoRecuperado.Id} - Nome: {produtoRecuperado.Nome} - Categoria: {produtoRecuperado.Categoria} - Descrição: {produtoRecuperado.Descricao} - Preço: {produtoRecuperado.Preco} - Data Criaçao: {produtoRecuperado.DataCriacao}");
+                System.Console.WriteLine($" ID: {produtoRecuperado.Id} - Nome: {produtoRecuperado.Nome}\n Categoria: {produtoRecuperado.Categoria} - Descrição: {produtoRecuperado.Descricao}\n Preço: {produtoRecuperado.Preco} - Data Criaçao: {produtoRecuperado.DataCriacao}");
             }else{
                 System.Console.WriteLine("Não há nenhum produto cadastrado com este ID");
             }

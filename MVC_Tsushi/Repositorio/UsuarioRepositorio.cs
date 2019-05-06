@@ -11,8 +11,8 @@ namespace MVC_Tsushi.Repositorio
         // static List<UsuarioViewModel> listaDeUsuarios = new List<UsuarioViewModel>();
         /// <summary>METODO RESPONSAVEL POR ARMAZENAR UM USUARIO</summary>
     public UsuarioViewModel Inserir(UsuarioViewModel usuario){
-            int contador = 0;
             List<UsuarioViewModel> listaDeUsuarios = Listar();
+            int contador = 0;
             if (listaDeUsuarios != null){
                 contador = listaDeUsuarios.Count;
             }

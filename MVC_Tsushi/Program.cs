@@ -19,6 +19,7 @@ namespace MVC_Tsushi
                 {
                     case 1: //CADASTRO USER
                         UsuarioViewController.CadastrarUsuario();
+                        ContinuarUtils.Continuar();
                     break;
                     case 2: //EFETUAR LOGIN
                         UsuarioViewModel usuarioRecuperado = UsuarioViewController.EfeturLogin();
@@ -33,18 +34,24 @@ namespace MVC_Tsushi
 
                                     case 1:// Cadastrar produto
                                         ProdutoViewController.CadastrarProduto();
+                                       ContinuarUtils.Continuar();
+
                                     break;
                                     
                                     case 2://Listar
                                         ProdutoViewController.ListarProduto();
+                                        ContinuarUtils.Continuar();
+
                                     break;
                                     
                                     case 3://Buscar por ID
                                         ProdutoViewController.BuscarId();
+                                        ContinuarUtils.Continuar();
+
                                     break;
 
                                     case 0://Sair
-                                        System.Console.WriteLine("Obrigado pela visita!");
+                                        System.Console.WriteLine("Deslogando...!");
                                     break;
                                     
                                     default:
@@ -58,6 +65,7 @@ namespace MVC_Tsushi
 
                     case 3: //LISTAR
                         UsuarioViewController.ListarUsuario();
+                        ContinuarUtils.Continuar();
                     break;
 
                     case 0: //SAIR

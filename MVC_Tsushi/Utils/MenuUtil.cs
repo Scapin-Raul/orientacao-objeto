@@ -26,7 +26,7 @@ namespace MVC_Tsushi.Utils
             System.Console.WriteLine("|- 1 CADASTRAR PRODUTO --|");
             System.Console.WriteLine("|- 2 LISTAR -------------|");
             System.Console.WriteLine("|- 3 BUSCAR POR ID ------|");
-            System.Console.WriteLine("|- 0 SAIR ---------------|");
+            System.Console.WriteLine("|- 0 DESLOGAR -----------|");
             System.Console.WriteLine("|------------------------|");
             System.Console.WriteLine("|__ ESCOLHA UMA OPÇÃO: __|");
             Console.ResetColor ();

@@ -71,21 +71,21 @@ namespace TodoList.ViewController
             }
         }
 
-        public static int Logar(){
+        public static UsuarioViewModel Logar(){
             System.Console.Write("Insira o email: ");
             string email = Console.ReadLine();    
             System.Console.Write("Insira a senha: ");
             string senha = Console.ReadLine();    
 
-            UsuarioViewModel usuarioRecuperado = UsuarioRepositorio.BuscarUsuario(email, senha);
+            UsuarioViewModel usuarioRecuperado = usuarioRepositorio.BuscarUsuario(email, senha);
 
             if (usuarioRecuperado != null){
-                return usuarioRecuperado.Id;
+                return usuarioRecuperado;
                 // return usuarioRecuperado;
             }else{
                 System.Console.WriteLine("Email ou senha inválidos");
-                return 0;
-                // return null;
+                // return 0;
+                return null;
             }
         
         }

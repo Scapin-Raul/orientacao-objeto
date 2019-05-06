@@ -1,6 +1,7 @@
 ﻿using System;
 using TodoList.Utils;
 using TodoList.ViewController;
+using TodoList.ViewModel;
 
 namespace TodoList
 {
@@ -11,19 +12,20 @@ namespace TodoList
             int resposta = 0;
 
             do{
-                MenuUtils.MenuUser(); 
-                
-                resposta = int.Parse(Console.ReadLine());
-
+ 
+                resposta = MenuUtils.MenuNovo();
+                    
                 switch (resposta)
                 {
                     case 1://Criar conta
                         UsuarioViewController.CriarConta();
+                        ContinuarUtil.Continuar();
                     break;
 
                     case 2://Logar
-                        int idRecuperado = UsuarioViewController.Logar();
-                        if (idRecuperado != 0){
+                        UsuarioViewModel userRecuperado = UsuarioViewController.Logar();
+                        if (userRecuperado != null){
+                            #region LOGADO
                             System.Console.WriteLine("Login efetuado com sucesso");
                             do{
                                 MenuUtils.MenuLogado();
@@ -32,11 +34,20 @@ namespace TodoList
                                 switch (resposta)
                                 {
                                     case 1://Criar tarefa
-                                        TarefaViewController.CriarTarefa(idRecuperado);
+                                        TarefaViewController.CriarTarefa(userRecuperado.Id);
+                                        ContinuarUtil.Continuar();
+
                                     break;
                                     
                                     case 2://Listar tarefas
-                                        TarefaViewController.ListarTarefas(idRecuperado);
+                                        TarefaViewController.ListarTarefas(userRecuperado.Id);
+                                        ContinuarUtil.Continuar();
+
+                                    break;
+
+                                    case 3:
+                                        TarefaViewController.DeletarTarefas();
+                                        ContinuarUtil.Continuar();
                                     break;
 
                                     case 9:
@@ -46,23 +57,24 @@ namespace TodoList
                                         System.Console.WriteLine("Valor inserido inválido");
                                     break;
                                 }
-                                System.Console.WriteLine("\nPressione ENTER para continuar");
-                                Console.ReadLine();
                             } while (resposta != 9);
                         }
-                            
+                            #endregion
                     break;
                     
                     case 3://Listar users???
                         UsuarioViewController.Listar();
+                        ContinuarUtil.Continuar();
                     break;
+
+                    case 0:
+                    break;
+
                     default:
                         System.Console.WriteLine("Valor inserido inválido");
                     break;
                 }
 
-                System.Console.WriteLine("\nPressione ENTER para continuar");
-                Console.ReadLine();
             }while(resposta !=0);
 
         

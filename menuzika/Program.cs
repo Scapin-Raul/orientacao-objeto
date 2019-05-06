@@ -6,82 +6,97 @@ namespace menuzika
     class Program
     {
         enum FormacaoEnum : uint{
-            KKKKKKKKK_K,
-            JJJJJ_KKK,
-            LSDASADDSA,
+            CRIAR_CONTA,
+            LOGAR,
+            LISTAR_USUARIOS,
+            SAIR,
         };
         static void Main(string[] args)
         {
-             bool querSair = false;
-    string[] itensMenuPrincipal = Enum.GetNames (typeof (FormacaoEnum));
+            bool querSair = false;
+            string[] itensMenuPrincipal = Enum.GetNames (typeof (FormacaoEnum));
 
-    var opcoesFormacao = new List<string>()
-                                {"    - 0                  ",
-                                 "    - 1                    ",
-                                 "    - 2                   "};
+            var opcoesFormacao = new List<string>()
+                                    {   "    - 0                  ",
+                                        "    - 1                    ",
+                                        "    - 2                   ",
+                                        "    - 3                  "};
 
-    int opcaoFormacaoSelecionada = 0;
+            int opcaoFormacaoSelecionada = 0;
 
-    string menuBar = "===================================";
+            string menuBar = "===================================";
 
-    do {
-        bool formacaoEscolhida = false;
+            do {
+                bool formacaoEscolhida = false;
 
-        do {
-            Console.Clear ();
+                do {
+                    Console.Clear ();
 
-            System.Console.WriteLine (menuBar);
-            Console.BackgroundColor = ConsoleColor.DarkCyan;
-            Console.ForegroundColor = ConsoleColor.Black;
-            System.Console.WriteLine ("     Seja bem-vindo(a) Vocal!      ");
-            System.Console.WriteLine ("        Escolha uma formação:      ");
-            Console.ResetColor ();
-            System.Console.WriteLine (menuBar);
-            
-            for (int i = 0; i < opcoesFormacao.Count; i++)
-            {
-                string titulo = TratarTituloMenu(itensMenuPrincipal[i]);
-
-                if (opcaoFormacaoSelecionada == i) {
-                    DestacarOpcao(opcoesFormacao[opcaoFormacaoSelecionada].Replace("-", ">").Replace(i.ToString(), titulo));
-                } else {
-                    System.Console.WriteLine(opcoesFormacao[i].Replace(i.ToString(), titulo));
-                }
-            }
-           
-            var key = Console.ReadKey(true).Key;
-
-            switch(key) {
-                case ConsoleKey.UpArrow:
-                    opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == 0 ? opcaoFormacaoSelecionada : --opcaoFormacaoSelecionada;
+                    System.Console.WriteLine (menuBar);
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    System.Console.WriteLine ("     Seja bem-vindo(a) Vocal!      ");
+                    System.Console.WriteLine ("        Escolha uma formação:      ");
+                    Console.ResetColor ();
+                    System.Console.WriteLine (menuBar);
                     
-                break;
-                case ConsoleKey.DownArrow:
-                    opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == opcoesFormacao.Count - 1 ? opcaoFormacaoSelecionada : ++opcaoFormacaoSelecionada;
+                    for (int i = 0; i < opcoesFormacao.Count; i++)
+                    {
+                        string titulo = TratarTituloMenu(itensMenuPrincipal[i]);
+
+                        if (opcaoFormacaoSelecionada == i) {
+                            DestacarOpcao(opcoesFormacao[opcaoFormacaoSelecionada].Replace("-", ">").Replace(i.ToString(), titulo));
+                        } else {
+                            System.Console.WriteLine(opcoesFormacao[i].Replace(i.ToString(), titulo));
+                        }
+                    }
+                
+                    var key = Console.ReadKey(true).Key;
+
+                    switch(key) {
+                        case ConsoleKey.UpArrow:
+                            opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == 0 ? opcaoFormacaoSelecionada : --opcaoFormacaoSelecionada;
+                            
+                        break;
+                        case ConsoleKey.DownArrow:
+                            opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == opcoesFormacao.Count - 1 ? opcaoFormacaoSelecionada : ++opcaoFormacaoSelecionada;
+                            
+                        break;
+                        case ConsoleKey.Enter:
+                            formacaoEscolhida = true;
+                            break;
+                    }
+
+                } while(!formacaoEscolhida);
+                switch (opcaoFormacaoSelecionada){
+                    case 0:
+                    System.Console.WriteLine("0");
+                    Console.ReadLine();
                     
-                break;
-                case ConsoleKey.Enter:
-                    formacaoEscolhida = true;
                     break;
+                    case 1:
+                    System.Console.WriteLine("1");
+                    Console.ReadLine();
+                    
+                    break;
+                    case 2:
+                    System.Console.WriteLine("2");
+                    Console.ReadLine();
+                    
+                    break;
+                    
+                }
+            } while(!querSair);
+                        
+                }
+            public static void DestacarOpcao(string opcao) {
+                Console.BackgroundColor = ConsoleColor.DarkRed;
+                System.Console.WriteLine(opcao);
+                Console.ResetColor();
             }
-
-        } while(!formacaoEscolhida);
-        
-    } while(!querSair);
                 
-                
-
-
-
-        }
-    public static void DestacarOpcao(string opcao) {
-        Console.BackgroundColor = ConsoleColor.DarkRed;
-        System.Console.WriteLine(opcao);
-        Console.ResetColor();
-    }
-        
-    public static string TratarTituloMenu(string titulo) {
-        return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(titulo.Replace ("_", " ").ToLower ());
-    }
+            public static string TratarTituloMenu(string titulo) {
+                return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(titulo.Replace ("_", " ").ToLower ());
+            }
     }
 }

@@ -60,6 +60,23 @@ namespace TodoList.ViewController
 
         }
 
+        public static void DeletarTarefas(){
+            List<TarefaViewModel> listaDeTarefas = tarefaRepositorio.Listar();
+            System.Console.WriteLine("Digite o Nome da tarefa que deseja remover:");
+            string deletar = Console.ReadLine();
+            TarefaViewModel tarefaRecuperada = null;
+            foreach (var item in listaDeTarefas){
+                if (item != null && item.Nome == deletar){
+                    tarefaRecuperada = item;
+                }
+            }
+            if (tarefaRecuperada != null){
+                // System.Console.WriteLine($"Item a ser deletado: {tarefaRecuperada.Id} {tarefaRecuperada.Nome}");
+                tarefaRepositorio.Deletar(tarefaRecuperada.Nome);
+            }
+        }
+
+    /// <summary>Listar tarefas feito pelo Raul</summary>
         public static void ListarTarefas(int idRecuperado){
             List<TarefaViewModel> listaDeTarefas = tarefaRepositorio.Listar();
             foreach (var item in listaDeTarefas){

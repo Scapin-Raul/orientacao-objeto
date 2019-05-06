@@ -57,7 +57,7 @@ namespace MVC_Tsushi.ViewController
         public static void ListarUsuario(){
             List<UsuarioViewModel> listaDeUsuarios = usuarioRepositorio.Listar();
             foreach (var item in listaDeUsuarios){
-                System.Console.WriteLine($"ID: {item.Id} - Nome: {item.Nome} - Email: {item.Email}- Data Criaçao: {item.DataCriacao:dd/MM/yyyy}");
+                System.Console.WriteLine($"ID: {item.Id} - Nome: {item.Nome} - Email: {item.Email} - Data Criaçao: {item.DataCriacao:dd/MM/yyyy}");
                 // System.Console.WriteLine($" - Senha: {item.Senha}");
             }
         }
