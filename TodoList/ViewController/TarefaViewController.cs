@@ -71,8 +71,9 @@ namespace TodoList.ViewController
                 }
             }
             if (tarefaRecuperada != null){
-                // System.Console.WriteLine($"Item a ser deletado: {tarefaRecuperada.Id} {tarefaRecuperada.Nome}");
                 tarefaRepositorio.Deletar(tarefaRecuperada.Nome);
+            }else{
+                System.Console.WriteLine("Tarefa não encontrada");
             }
         }
 

@@ -59,23 +59,34 @@ namespace TodoList.Repositorio
 
             foreach (var item in seila){
                 if (!item.Contains(nomeRecuperado)){
-                    // System.Console.WriteLine(i);
                     listaDeTarefas.Add(item);
                 }
-                // System.Console.WriteLine(item);
             }
             File.Delete("tarefas.csv");
             StreamWriter sw = new StreamWriter("tarefas.csv",true);
 
             foreach (var item in listaDeTarefas){
                 sw.WriteLine(item);
-                // System.Console.WriteLine(item);
             }
             sw.Close();
             cont++;
 
             System.Console.WriteLine("Item Removido com sucesso!");
                 
+            // string[] linhas = File.ReadAllLines("tarefas.csv");
+
+            // for (int i = 0; i < linhas.Length; i++){
+            //     string[] linha = linhas[i].Split(";");
+                
+            //     if (nomeRecuperado.Equals(linha[1])){
+            //         linhas[i] = "";
+            //         break;
+            //     }
+            // }
+            // System.IO.File.WriteAllLines ("tarefas.csv", linhas);
+                
+
+
         }
 
     }

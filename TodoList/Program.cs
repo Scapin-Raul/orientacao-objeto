@@ -25,7 +25,7 @@ namespace TodoList
                     case 2://Logar
                         UsuarioViewModel userRecuperado = UsuarioViewController.Logar();
                         if (userRecuperado != null){
-                            #region LOGADO
+#region LOGADO
                             System.Console.WriteLine("Login efetuado com sucesso");
                             do{
                                 MenuUtils.MenuLogado();
@@ -45,7 +45,7 @@ namespace TodoList
 
                                     break;
 
-                                    case 3:
+                                    case 3://Deletar tarefas
                                         TarefaViewController.DeletarTarefas();
                                         ContinuarUtil.Continuar();
                                     break;
@@ -59,7 +59,7 @@ namespace TodoList
                                 }
                             } while (resposta != 9);
                         }
-                            #endregion
+#endregion
                     break;
                     
                     case 3://Listar users???
