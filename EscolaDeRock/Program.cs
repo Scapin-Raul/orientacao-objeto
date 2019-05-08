@@ -85,7 +85,7 @@ namespace EscolaDeRock
                     case 0:
                         vagas = 2;
                         do{
-                            System.Console.WriteLine(vagas);
+                            // System.Console.WriteLine(vagas);
                             ExibirMenuDeInstrumentos();
                             System.Console.WriteLine("Digite o código do instrumento para a categoria Harmonia");
                             int codigo = int.Parse(Console.ReadLine());
@@ -223,6 +223,6 @@ namespace EscolaDeRock
         public static void ColocarNaBanda(IMelodia instrumento){
             instrumento.TocarSolo();
         }
-#endregion
+        #endregion
     }
 }
