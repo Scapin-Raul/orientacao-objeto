@@ -1,0 +1,11 @@
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\obj\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\obj\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\obj\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\obj\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\bin\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.deps.json
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\bin\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.runtimeconfig.json
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\bin\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\bin\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\bin\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.pdb
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\obj\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.dll
+C:\Users\46791749865\Desktop\orientacao-objeto\APLICATIVO FINANCEIRO\obj\Debug\netcoreapp2.1\APLICATIVO FINANCEIRO.pdb

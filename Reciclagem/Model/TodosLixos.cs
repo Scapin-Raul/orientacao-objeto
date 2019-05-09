@@ -13,7 +13,6 @@ namespace Reciclagem.Model
             { 6, new FolhaDePapel() },
             { 7, new EmbalagemMetalica() },
             { 8, new Teclado() }
-
         };
     }
 }
